@@ -63,7 +63,6 @@ public class MobModifierMain extends JavaPlugin implements Listener
     
     public void modifiyHP(LivingEntity mob)
     {
-        
         MobData reference =mobData.get(mob.getType().getName());
         int newHP = reference.getMinHP()+(int)((reference.getMaxHP()-reference.getMinHP())*Math.random());
         mob.setHealth(newHP);

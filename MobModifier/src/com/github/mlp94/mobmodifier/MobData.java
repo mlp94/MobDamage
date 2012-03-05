@@ -24,6 +24,22 @@ public class MobData {
         this.maxHP = maxHP;
     }
 
+    public MobData(String mobName, int minHP, int maxHP, int damage) {
+        this.mobName = mobName;
+        this.minHP = minHP;
+        this.maxHP = maxHP;
+        this.damage = damage;
+    }
+
+    public MobData(String mobName, int minHP, int maxHP, int damage, int range) {
+        this.mobName = mobName;
+        this.minHP = minHP;
+        this.maxHP = maxHP;
+        this.damage = damage;
+        this.range = range;
+    }
+    
+
     
 
     
